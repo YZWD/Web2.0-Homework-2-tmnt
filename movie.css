@@ -55,7 +55,8 @@ body{
     font-size: 8pt;
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: bold;
-    margin: 5px;
+    margin: 0;
+    padding: 0;
 }
 
 .div-body2 p{
@@ -175,14 +176,19 @@ a{
     width: 258px;
     height: 630px;
 }
+
 #div-body-left-leftcol img{
     float: left;
+}
+
+#div-body-left-leftcol div{
+    width: 258px;
 }
 
 #div-body-left-rightcol{
     float: right;
     width: 260px;
-    height: 670px;
+    height: 680px;
     margin-right: 20px;
     margin-top: -640px;
 }
